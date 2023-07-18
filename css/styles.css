@@ -780,7 +780,9 @@ list-style-type: none;
 
 }
 
-
+.footer-form-container{
+        
+}
 
 .footer-form{
         border: 1px;
@@ -792,14 +794,14 @@ list-style-type: none;
 
 }
 .title-social{
-        padding-top: 100px;
-        padding-right: 537px;
-        padding-bottom: 188px ;
-        padding-left: 828px;
+        margin-top: 140px;
+        margin-right: 159px;
+        margin-bottom: 132px ;
+        margin-left: 828px;
 
 }
 .footer-input{
-        
+
 
 }
 .footer-btn-title{
