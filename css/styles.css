@@ -293,6 +293,10 @@ ul{
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
+        display: flex;
+        width: 264px;
+        flex-direction: column;
+        flex-shrink: 0;
 
 } 
 .link-footlogo {
@@ -611,6 +615,7 @@ list-style-type: none;
         color: var(--white, #FFF);
         margin-bottom: 16px;
         letter-spacing: 0.02em;
+
 }
 .footer-icon{
         display: flex;
@@ -861,8 +866,6 @@ list-style-type: none;
         border-color: #4D5AE5;     
 }
 
-
-
 .checkbox{
         width: 16px;
         height: 16px;
@@ -880,8 +883,10 @@ list-style-type: none;
 /*----Footer-5----*/
 
 .footer-form-container{
-       display: flex;
-     
+        display: flex;
+        width: 453px;
+        height: 80px;
+        flex-shrink: 0;
 }
 .footer-email{
      margin-bottom: 16px; 
@@ -934,7 +939,6 @@ list-style-type: none;
         border: none;
         border-radius: 4px;
 }
-
 
 
 .footer-btn-title{
