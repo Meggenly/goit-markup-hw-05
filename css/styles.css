@@ -765,6 +765,7 @@ list-style-type: none;
 }
 .modal-form-privacy{
         margin-bottom: 24px;
+        font-family: "Roboto", sans-serif;
 } 
 .btn-order-service{
         display: inline-flex;
