@@ -783,7 +783,7 @@ list-style-type: none;
         color: var(--white, #FFF);
         text-align: center;
         border: none;
-        font-family: Roboto;
+        font-family: "Roboto" sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -807,8 +807,7 @@ list-style-type: none;
         letter-spacing: 0.04em;
         color: #8e8f99;;
         margin-bottom: 4px;
- 
-     
+        display: block;   
 }
 .modal-input{
         width: 100%;
@@ -879,6 +878,7 @@ list-style-type: none;
         fill: transparent;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: 1px solid rgba(46, 47, 66, 0.4);
+       
       
 }
 .checkbox-two{
@@ -892,9 +892,8 @@ list-style-type: none;
         justify-content: center;
         fill: transparent;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border: 1px solid rgba(46, 47, 66, 0.4);
+       
 }
-
 
 
 
