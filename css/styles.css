@@ -776,7 +776,6 @@ list-style-type: none;
         padding: 16px 32px;
         align-items: flex-start;
          gap: 10px;
-        color: ;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
                       
 }
@@ -807,9 +806,8 @@ list-style-type: none;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;;
-        display: block;
         margin-bottom: 4px;
-        color: #8E8F99;
+ 
      
 }
 .modal-input{
@@ -882,6 +880,30 @@ list-style-type: none;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: 1px solid rgba(46, 47, 66, 0.4);
       
+}
+.checkbox-two{
+        color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        fill: transparent;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+
+
+
+
+.modal-input:checked + .modal-label .checkbox{
+        background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;;
+
 }
 /*----Footer-5----*/
 
